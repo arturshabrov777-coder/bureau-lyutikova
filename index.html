@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Бюро Лютикова — Ювелирный аутсорсинг</title>
+    <meta name="description" content="Бюро Лютикова — ювелирный аутсорсинг. Бижутерия, дизайн и производство под ключ." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- ХЕДЕР -->
+    <header class="site-header">
+        <div class="brand">
+            <img src="static/images/bureau-logo.png" alt="Бюро Лютикова" class="brand__logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <span class="brand__fallback">Бюро Лютикова</span>
+        </div>
+        <nav class="site-nav">
+            <a href="#about">О бюро</a>
+            <a href="#services">Услуги</a>
+            <a href="#partners">Партнёры</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+    </header>
+
+    <!-- ПАРТНЁРЫ / ГРАНТ -->
+    <section class="section section--partners" id="partners">
+        <div class="section__inner">
+            <p class="section__eyebrow">Поддержка</p>
+
+            <div class="partner-block">
+                <div class="partner-logos">
+                    <img src="static/images/platform-logo.png" alt="Платформа университетского технологического предпринимательства" class="partner-logo partner-logo--blue partner-logo--large" />
+                    <img src="static/images/fund-logo.png" alt="Фонд содействия инновациям" class="partner-logo" />
+                </div>
+
+                <p class="partner-text">
+                    Проект реализован при поддержке Фонда содействия инновациям
+                    в рамках программы «Студенческий стартап» мероприятия
+                    «Платформа университетского технологического предпринимательства»
+                    федерального проекта «Технологии».
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ГЕРОЙ -->
+    <section class="hero">
+        <div class="hero__content">
+            <p class="hero__eyebrow">Ювелирный аутсорсинг</p>
+            <h1 class="hero__title">Бюро<br>Лютикова</h1>
+            <p class="hero__subtitle">
+                Создаём бижутерию и ювелирные изделия под ключ: от эскиза и 3D-модели
+                до готовой коллекции. Тонкая работа, честные сроки, безупречный вкус.
+            </p>
+            <a href="#contact" class="btn btn--primary">Обсудить проект</a>
+        </div>
+        <div class="hero__mark" aria-hidden="true">
+            <div class="mark">
+                <span class="mark__letters">Λ</span>
+                <span class="mark__star">✦</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- О БЮРО -->
+    <section class="section" id="about">
+        <div class="section__inner">
+            <p class="section__eyebrow">О бюро</p>
+            <h2 class="section__title">Ювелирный аутсорсинг с характером</h2>
+            <p class="section__text">
+                «Бюро Лютикова» — команда дизайнеров и мастеров, которая помогает
+                брендам и частным клиентам выпускать коллекции бижутерии и украшений.
+                Мы берём на себя весь производственный цикл и оставляем вам только
+                творческие решения.
+            </p>
+            <div class="features">
+                <div class="feature">
+                    <span class="feature__num">01</span>
+                    <h3>Дизайн и эскизы</h3>
+                    <p>Разрабатываем концепцию, рисуем эскизы и подбираем материалы.</p>
+                </div>
+                <div class="feature">
+                    <span class="feature__num">02</span>
+                    <h3>3D-модель и образец</h3>
+                    <p>Готовим цифровую модель и физический образец для утверждения.</p>
+                </div>
+                <div class="feature">
+                    <span class="feature__num">03</span>
+                    <h3>Производство</h3>
+                    <p>Мелкосерийный выпуск с контролем качества на каждом этапе.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- УСЛУГИ -->
+    <section class="section section--dark" id="services">
+        <div class="section__inner">
+            <p class="section__eyebrow">Услуги</p>
+            <h2 class="section__title">Что мы делаем</h2>
+            <ul class="services">
+                <li><span>✦</span> Бижутерия и аксессуары</li>
+                <li><span>✦</span> Ювелирные изделия на заказ</li>
+                <li><span>✦</span> Разработка бренда и упаковки</li>
+                <li><span>✦</span> Мелкосерийное производство</li>
+                <li><span>✦</span> 3D-моделирование и визуализация</li>
+                <li><span>✦</span> Консультации по материалам</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- КОНТАКТЫ -->
+    <section class="section section--contact" id="contact">
+        <div class="section__inner">
+            <p class="section__eyebrow">Контакты</p>
+            <h2 class="section__title">Расскажите о своей идее</h2>
+            <p class="section__text">
+                Напишите нам — обсудим задачу, сроки и стоимость.
+                Отвечаем в течение одного рабочего дня.
+            </p>
+            <a href="mailto:aliutikov2005@gmail.com" class="btn btn--primary">aliutikov2005@gmail.com</a>
+        </div>
+    </section>
+
+    <!-- РЕКВИЗИТЫ -->
+    <section class="section section--requisites">
+        <div class="section__inner">
+            <h2 class="requisites-title">Сведения об организации</h2>
+
+            <div class="requisites-grid">
+                <div class="req-item">
+                    <span class="req-label">Наименование</span>
+                    <span class="req-value">ООО «БЛ»</span>
+                </div>
+                <div class="req-item">
+                    <span class="req-label">Полное наименование</span>
+                    <span class="req-value">Общество с ограниченной ответственностью «Бюро Лютикова»</span>
+                </div>
+                <div class="req-item">
+                    <span class="req-label">Юридический адрес</span>
+                    <span class="req-value">666032, Иркутская область, м.р-н Шелеховский, г.п. Шелеховское, г. Шелехов, кв-л 20-й, д. 93 , кв. 41</span>
+                </div>
+                <div class="req-item">
+                    <span class="req-label">Фактический адрес</span>
+                    <span class="req-value">666032, Иркутская область, м.р-н Шелеховский, г.п. Шелеховское, г. Шелехов, кв-л 20-й, д. 93 , кв. 41</span>
+                </div>
+                <div class="req-item">
+                    <span class="req-label">ИНН / КПП</span>
+                    <span class="req-value">3812169782 / 381201001</span>
+                </div>
+                <div class="req-item">
+                    <span class="req-label">Email</span>
+                    <span class="req-value"><a href="mailto:aliutikov2005@gmail.com">aliutikov2005@gmail.com</a></span>
+                </div>
+                <div class="req-item">
+                    <span class="req-label">Телефон</span>
+                    <span class="req-value"><a href="tel:+79016307279">+7 (901) 630-72-79</a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ФУТЕР -->
+    <footer class="site-footer">
+        <p>© 2026 Бюро Лютикова. Ювелирный аутсорсинг.</p>
+    </footer>
+
+</body>
+</html>
